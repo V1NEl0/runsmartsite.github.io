@@ -1,0 +1,30 @@
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/media';
+@import 'base/animations';
+
+
+* {
+    font-family: 'Miseo Sans Cyrl';
+    margin: 0;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import 'blocks/titles';
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/comment';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
